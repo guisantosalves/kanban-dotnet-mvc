@@ -17,7 +17,7 @@ namespace Kanban.data
             modelBuilder.Entity<Status>().HasData(
                 new Status { Id = 1, Nome = "Pendente" },
                 new Status { Id = 2, Nome = "Em andamento" },
-                new Status { Id = 3, Nome = "Pendente" }
+                new Status { Id = 3, Nome = "Concluido" }
             );
         }
 
